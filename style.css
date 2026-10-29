@@ -58,8 +58,12 @@ li{
     list-style-type:circle;
     font-family:monospace;
     margin: 10px;
-    color: blanchedalmond;
+    color:darkred;
     font-size: 20px;
+    transition: transform 2s;
+}
+li:hover{
+    transform: scale(1.1);
 }
 details{
     font-family:monospace;
@@ -151,4 +155,84 @@ h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration:underline;
     text-indent: 5px;
+}
+/* header Menschen mit Fehlbildung*/
+#headfehl{
+    background-color:rgba(245, 235, 220, 0.85); 
+    height: 100px;
+    border-radius: 20px;
+    margin: 1%;
+}
+/* title Menschen mit Fehlbildung*/
+#titfehl{
+    text-align: center;
+    font-size: 40px;
+    color:firebrick ;
+}
+/* section Menschen mit Fehlbildung*/
+#secfehl{
+    background-color:rgba(135,187,162 ,0.50);
+    width: 98%;
+    float: left;
+    margin: 1%;
+    height: 90%;
+    border-radius: 20px;
+}
+/* bild Menschen mit Fehlbildung*/
+#imfehl{
+    float: right;
+    padding: 20px;
+    width: 70%;
+    height: 80%;
+    margin-top: 100px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px #FFF8DC;
+    transition: transform 2s;
+}
+/* transition bild Menschen mit Fehlbildung*/
+#imfehl:hover{
+    transform: scale(1.1);
+}
+.pfehl{
+
+    color:black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.spfehl{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:darkred;
+}
+.arfehl{
+    display: inline-block;
+    width: 40%;
+    border-radius: 20px;
+    margin: 1%;
+}
+.arfehl2{
+    display: inline-block;
+    width: 50%;
+    border-radius: 20px;
+    margin: 1%;
+    padding: 5px;
+    height: 400px;
+    margin-bottom: 20%;
+}
+#divv{
+    background-color: rgba(128, 0, 128,0.50) ;
+    float: left;
+    transition: transform 2s;
+    width: 60%;
+    height: 400px;
+}
+#divv:hover{
+    transform: scale(1.1);
+}
+video{
+    padding: 15px;
+    border-radius: 30px;
+    margin: auto;
+    display: inline-block;
 }
