@@ -179,7 +179,7 @@ h3{
     border-radius: 20px;
 }
 /* bild Menschen mit Fehlbildung*/
-#imfehl{
+.imfehl{
     float: right;
     padding: 20px;
     width: 70%;
@@ -190,7 +190,7 @@ h3{
     transition: transform 2s;
 }
 /* transition bild Menschen mit Fehlbildung*/
-#imfehl:hover{
+.imfehl:hover{
     transform: scale(1.1);
 }
 .pfehl{
@@ -218,21 +218,35 @@ h3{
     margin: 1%;
     padding: 5px;
     height: 400px;
-    margin-bottom: 20%;
+    margin-bottom: 40%;
 }
 #divv{
     background-color: rgba(128, 0, 128,0.50) ;
     float: left;
-    transition: transform 2s;
     width: 60%;
-    height: 400px;
+    height: 600px;
+    transition: transform 2s;
 }
 #divv:hover{
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 video{
     padding: 15px;
     border-radius: 30px;
-    margin: auto;
+    margin-left: 60px;
     display: inline-block;
+}
+.bc{
+    margin-left: 20%;
+    height: 50px;
+    width: 15%;
+    font-size: 20px;
+    background-color:crimson;
+    font-family:  Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border: solid 1.5px black;
+    transition: transform 2s;
+}
+.bc:hover{
+    transform: scale(1.1);
 }
