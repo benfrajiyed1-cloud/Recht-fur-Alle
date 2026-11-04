@@ -82,7 +82,7 @@ p{
 }
 a{
     text-decoration: none;
-    color:darkseagreen;
+    color:darkred;
 }
 #psec{
     width: 900px;
@@ -218,7 +218,7 @@ h3{
     margin: 1%;
     padding: 5px;
     height: 400px;
-    margin-bottom: 40%;
+    margin-bottom: 70%;
 }
 #divv{
     background-color: rgba(128, 0, 128,0.50) ;
@@ -249,4 +249,23 @@ video{
 }
 .bc:hover{
     transform: scale(1.1);
+}
+#RK{
+    color: darkgreen;
+    font-size: 25px;
+    text-decoration: underline;
+}
+#rl{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+#rl:hover{
+    transform: scale(1.1);
+}
+#md{
+    color: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
 }
